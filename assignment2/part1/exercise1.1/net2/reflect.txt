@@ -1,0 +1,2159 @@
+Namespace(train_size=2000, val_size=1000, test_size=1000, conv_type='reflect', net_type='Net2', image_size=32, offset1=7, offset2=23, fluctuation=6, n_repeat=10, epochs=50, batch_size=200)
+Round  :   1
+Net(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv4): Conv2d(64, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (fc1): Linear(in_features=64, out_features=2, bias=True)
+  (fc2): Linear(in_features=2304, out_features=64, bias=True)
+)
+Model size: 832.133KB
+Training is starting...
+Epoch:   1
+Loss: 0.6914 Acc: 0.6625
+val loss:  0.003425848364830017
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   2
+Loss: 0.3797 Acc: 1.0000
+val loss:  9.809607989154756e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   3
+Loss: 0.0010 Acc: 1.0000
+val loss:  2.3896911880001427e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   4
+Loss: 0.0003 Acc: 1.0000
+val loss:  1.2220872304169462e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   5
+Loss: 0.0002 Acc: 1.0000
+val loss:  7.721026995568536e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   6
+Loss: 0.0001 Acc: 1.0000
+val loss:  5.41259563760832e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   7
+Loss: 0.0001 Acc: 1.0000
+val loss:  4.05047681852011e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   8
+Loss: 0.0001 Acc: 1.0000
+val loss:  3.1804422906134276e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   9
+Loss: 0.0001 Acc: 1.0000
+val loss:  2.595041660242714e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  10
+Loss: 0.0000 Acc: 1.0000
+val loss:  2.1840394583705348e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  11
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.883962413558038e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  12
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.6569522085774223e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  13
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.4800573626416735e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  14
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.3386729915509932e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  15
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.2233303823450114e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  16
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.1275642827968113e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  17
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.0469709013705142e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  18
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.78207062871661e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  19
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.190619584842352e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  20
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.675093886267859e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  21
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.222918222600128e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  22
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.823486612323905e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  23
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.469169668183894e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  24
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.150670717237518e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  25
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.864831630082336e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  26
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.607837804040174e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  27
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.373609903675969e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  28
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.160122757137288e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  29
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.965528316664859e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  30
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.7879198266164164e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  31
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.623303604807006e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  32
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.47197851119563e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  33
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.3330493756220676e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  34
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.202285865379963e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  35
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.0818328418245074e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  36
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.9707966354617384e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  37
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.865601022174815e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  38
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.766604115502559e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  39
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.674163028539624e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  40
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.5897082600276914e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  41
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.5082337237545286e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  42
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.432540299603716e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  43
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.3597076000878586e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  44
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.293013898859499e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  45
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.229300157021498e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  46
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.1695201616676056e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  47
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.1126007999991996e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  48
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.0582446217740654e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  49
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.0082984924083574e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  50
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.9599020055902655e-08
+Accuracy of the network on the val images: 100.0000 %
+Training finished.
+testing loss:  0.06978535461425782
+Accuracy of the network on the testset images: 0.0000 %
+Testing with testset finished
+Round  :   2
+Net(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv4): Conv2d(64, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (fc1): Linear(in_features=64, out_features=2, bias=True)
+  (fc2): Linear(in_features=2304, out_features=64, bias=True)
+)
+Model size: 832.133KB
+Training is starting...
+Epoch:   1
+Loss: 0.6896 Acc: 0.5770
+val loss:  0.0033421112298965454
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   2
+Loss: 0.2291 Acc: 1.0000
+val loss:  6.533922161906958e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   3
+Loss: 0.0007 Acc: 1.0000
+val loss:  2.0735842117574066e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   4
+Loss: 0.0003 Acc: 1.0000
+val loss:  1.1204852635273709e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   5
+Loss: 0.0002 Acc: 1.0000
+val loss:  7.23952725820709e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   6
+Loss: 0.0001 Acc: 1.0000
+val loss:  5.133484519319608e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   7
+Loss: 0.0001 Acc: 1.0000
+val loss:  3.8698789649060926e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   8
+Loss: 0.0001 Acc: 1.0000
+val loss:  3.0571512252208776e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   9
+Loss: 0.0001 Acc: 1.0000
+val loss:  2.5078679755097255e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  10
+Loss: 0.0000 Acc: 1.0000
+val loss:  2.1203259711910506e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  11
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.8354764142713975e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  12
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.618677852093242e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  13
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.4489144086837768e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  14
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.31271928694332e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  15
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.201463965117e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  16
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.1085159349022433e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  17
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.0303057024430018e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  18
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.63311367740971e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  19
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.0557226940291e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  20
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.552291819796665e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  21
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.110364342428511e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  22
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.719094446656527e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  23
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.371152514679125e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  24
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.05956508681993e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  25
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.779206796636572e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  26
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.526502602355322e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  27
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.2964460994408e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  28
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.087427391321398e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  29
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.8956332395609936e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  30
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.719335240428336e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  31
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.5581747346877816e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  32
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.409888353824499e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  33
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.2711967782670396e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  34
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.143829775988707e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  35
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.0255216137884416e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  36
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.914842565995059e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  37
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.810540531252627e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  38
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.7151789658528286e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  39
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.6248828766692895e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  40
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.5409046833810863e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  41
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.4613964291784216e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  42
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.3863582959602356e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  43
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.316207605370437e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  44
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.2498710627114636e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  45
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.187229751551058e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  46
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.127687907384825e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  47
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.071721787113347e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  48
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.018259141957969e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  49
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.9686110994807676e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  50
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.921585584976128e-08
+Accuracy of the network on the val images: 100.0000 %
+Training finished.
+testing loss:  0.06430908870697022
+Accuracy of the network on the testset images: 0.0000 %
+Testing with testset finished
+Round  :   3
+Net(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv4): Conv2d(64, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (fc1): Linear(in_features=64, out_features=2, bias=True)
+  (fc2): Linear(in_features=2304, out_features=64, bias=True)
+)
+Model size: 832.133KB
+Training is starting...
+Epoch:   1
+Loss: 0.6912 Acc: 0.5950
+val loss:  0.0034193317294120788
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   2
+Loss: 0.3539 Acc: 1.0000
+val loss:  1.061000325717032e-05
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   3
+Loss: 0.0010 Acc: 1.0000
+val loss:  2.5274979416280986e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   4
+Loss: 0.0003 Acc: 1.0000
+val loss:  1.2784323771484196e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   5
+Loss: 0.0002 Acc: 1.0000
+val loss:  7.992361788637936e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   6
+Loss: 0.0001 Acc: 1.0000
+val loss:  5.543149745790288e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   7
+Loss: 0.0001 Acc: 1.0000
+val loss:  4.1149646494886837e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   8
+Loss: 0.0001 Acc: 1.0000
+val loss:  3.217954399588052e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   9
+Loss: 0.0001 Acc: 1.0000
+val loss:  2.622470747155603e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  10
+Loss: 0.0000 Acc: 1.0000
+val loss:  2.2069724218454213e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  11
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.9042272288061212e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  12
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.6751622933952602e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  13
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.4965519039833453e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  14
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.353683983325027e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  15
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.2369651994958984e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  16
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.1401624760765117e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  17
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.0585262953100028e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  18
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.890296587400371e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  19
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.290263915318065e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  20
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.76794538271497e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  21
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.309811346407514e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  22
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.90555259300163e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  23
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.545216794824227e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  24
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.222844396892469e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  25
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.933966051292373e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  26
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.673038478766103e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  27
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.43648745608516e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  28
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.219185979716712e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  29
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.021790431987028e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  30
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.840725316375028e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  31
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.674321528204018e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  32
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.5200159295054615e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  33
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.378524474508595e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  34
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.2465691169345516e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  35
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.124149220137042e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  36
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.009954338675016e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  37
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.9036862947104967e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  38
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.803794854524313e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  39
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.711413293989608e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  40
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.62385974060453e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  41
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.541908356259228e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  42
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.4644267745752584e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  43
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.39248824477545e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  44
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.3241853745712435e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  45
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.258445324012427e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  46
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.197950192974531e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  47
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.139838620176306e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  48
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.08566115766007e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  49
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.033867617181386e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  50
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.98451766159269e-08
+Accuracy of the network on the val images: 100.0000 %
+Training finished.
+testing loss:  0.07323512840270996
+Accuracy of the network on the testset images: 0.0000 %
+Testing with testset finished
+Round  :   4
+Net(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv4): Conv2d(64, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (fc1): Linear(in_features=64, out_features=2, bias=True)
+  (fc2): Linear(in_features=2304, out_features=64, bias=True)
+)
+Model size: 832.133KB
+Training is starting...
+Epoch:   1
+Loss: 0.6915 Acc: 0.7800
+val loss:  0.0034363700151443482
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   2
+Loss: 0.4517 Acc: 1.0000
+val loss:  1.30984322167933e-05
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   3
+Loss: 0.0012 Acc: 1.0000
+val loss:  2.596534148324281e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   4
+Loss: 0.0004 Acc: 1.0000
+val loss:  1.278905343497172e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   5
+Loss: 0.0002 Acc: 1.0000
+val loss:  7.939043280202896e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   6
+Loss: 0.0001 Acc: 1.0000
+val loss:  5.500414554262534e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   7
+Loss: 0.0001 Acc: 1.0000
+val loss:  4.084180254722014e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   8
+Loss: 0.0001 Acc: 1.0000
+val loss:  3.1923958886181937e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   9
+Loss: 0.0001 Acc: 1.0000
+val loss:  2.5982727311202326e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  10
+Loss: 0.0000 Acc: 1.0000
+val loss:  2.183864708058536e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  11
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.8822653510142117e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  12
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.6544806749152485e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  13
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.4769644076295662e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  14
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.3354162365430966e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  15
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.219772111653583e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  16
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.1237573744438122e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  17
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.0429567737446632e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  18
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.742477504914859e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  19
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.14960519367014e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  20
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.634026653453474e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  21
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.182394503819523e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  22
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.782073316775496e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  23
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.426032334478805e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  24
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.109265698090894e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  25
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.824860429333058e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  26
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.566379306605086e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  27
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.332869452307932e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  28
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.119980844232486e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  29
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.9259844420012086e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  30
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.7470660976832736e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  31
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.582749599852832e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  32
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.4321405514201615e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  33
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.291424895403907e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  34
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.161615536053432e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  35
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.04044869558129e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  36
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.9283407406619516e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  37
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.825291534871212e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  38
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.726473980554147e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  39
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.6354638470802456e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  40
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.549818004306871e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  41
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.469953273655847e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  42
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.392948949316633e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  43
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.322620316088433e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  44
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.2553309867798813e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  45
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.193048016531975e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  46
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.131361265535816e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  47
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.07468050980242e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  48
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.021576296509011e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  49
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.9702002140984407e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  50
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.921744473700528e-08
+Accuracy of the network on the val images: 100.0000 %
+Training finished.
+testing loss:  0.07470378017425537
+Accuracy of the network on the testset images: 0.0000 %
+Testing with testset finished
+Round  :   5
+Net(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv4): Conv2d(64, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (fc1): Linear(in_features=64, out_features=2, bias=True)
+  (fc2): Linear(in_features=2304, out_features=64, bias=True)
+)
+Model size: 832.133KB
+Training is starting...
+Epoch:   1
+Loss: 0.6898 Acc: 0.6980
+val loss:  0.0033584969639778137
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   2
+Loss: 0.2259 Acc: 1.0000
+val loss:  5.917403730563819e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   3
+Loss: 0.0007 Acc: 1.0000
+val loss:  1.8898208509199321e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   4
+Loss: 0.0003 Acc: 1.0000
+val loss:  1.0168680892093107e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   5
+Loss: 0.0002 Acc: 1.0000
+val loss:  6.545421420014463e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   6
+Loss: 0.0001 Acc: 1.0000
+val loss:  4.642611456802115e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   7
+Loss: 0.0001 Acc: 1.0000
+val loss:  3.515768185025081e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   8
+Loss: 0.0001 Acc: 1.0000
+val loss:  2.7956337726209313e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   9
+Loss: 0.0000 Acc: 1.0000
+val loss:  2.3083176347427071e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  10
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.9625007917056792e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  11
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.7065378779079764e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  12
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.5103441182873212e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  13
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.355984149995493e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  14
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.2315160347498022e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  15
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.1292885210423264e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  16
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.0439085326652275e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  17
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.716812837723409e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  18
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.097880501940381e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  19
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.563038772990695e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  20
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.095422435872024e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  21
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.683947387704393e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  22
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.319911401282298e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  23
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.995210878812941e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  24
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.704541647195583e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  25
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.443313122872496e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  26
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.206819125509356e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  27
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.991064972477034e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  28
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.794919252366526e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  29
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.616235921479529e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  30
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.451439210446551e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  31
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.299695385474479e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  32
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.159811780686141e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  33
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.030834745411994e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  34
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.911036739940755e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  35
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.7989264658099276e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  36
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.6946838665462566e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  37
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.59771231362538e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  38
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.505806782617583e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  39
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.4211129988980247e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  40
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.341366184235085e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  41
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.267817894287873e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  42
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.196057534500142e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  43
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.129720764467493e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  44
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.067138797836378e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  45
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.009086751466384e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  46
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.952465203838074e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  47
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.9000751257844965e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  48
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.850009397865506e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  49
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.8026264064683344e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  50
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.7583419725706334e-08
+Accuracy of the network on the val images: 100.0000 %
+Training finished.
+testing loss:  0.07340992832183837
+Accuracy of the network on the testset images: 0.0000 %
+Testing with testset finished
+Round  :   6
+Net(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv4): Conv2d(64, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (fc1): Linear(in_features=64, out_features=2, bias=True)
+  (fc2): Linear(in_features=2304, out_features=64, bias=True)
+)
+Model size: 832.133KB
+Training is starting...
+Epoch:   1
+Loss: 0.6913 Acc: 0.5245
+val loss:  0.003406148672103882
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   2
+Loss: 0.3099 Acc: 1.0000
+val loss:  7.1179834194481376e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   3
+Loss: 0.0008 Acc: 1.0000
+val loss:  2.0618098496925087e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   4
+Loss: 0.0003 Acc: 1.0000
+val loss:  1.0889032273553312e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   5
+Loss: 0.0002 Acc: 1.0000
+val loss:  6.964769345358946e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   6
+Loss: 0.0001 Acc: 1.0000
+val loss:  4.920788196614012e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   7
+Loss: 0.0001 Acc: 1.0000
+val loss:  3.7106699892319737e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   8
+Loss: 0.0001 Acc: 1.0000
+val loss:  2.9369154799496755e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   9
+Loss: 0.0001 Acc: 1.0000
+val loss:  2.414551199763082e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  10
+Loss: 0.0000 Acc: 1.0000
+val loss:  2.0449599469429812e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  11
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.77284066012362e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  12
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.5654469098080882e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  13
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.4025196833244992e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  14
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.2716826495307032e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  15
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.1644504411378875e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  16
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.0750844921858515e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  17
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.995861728384625e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  18
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.349521496915259e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  19
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.791680193098728e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  20
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.306606468977407e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  21
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.878149335738272e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  22
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.500707306462573e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  23
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.16385120540508e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  24
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.861800193291856e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  25
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.590263365069404e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  26
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.346559348457958e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  27
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.123595176177332e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  28
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.920537387282821e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  29
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.734703427151544e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  30
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.564425009652041e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  31
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.407615572039504e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  32
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.2628459343395664e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  33
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.130293811816955e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  34
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.006085666536819e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  35
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.8902214984991584e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  36
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.7824627927184337e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  37
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.682512053477694e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  38
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.58941512988531e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  39
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.502277943174704e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  40
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.419492097440525e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  41
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.341890917203273e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  42
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.268462180334609e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  43
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.201768206257839e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  44
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.137220139455167e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  45
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.075711103723734e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  46
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.017957371615921e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  47
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.9636605833948124e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  48
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.9122840007621564e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  49
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.8631126244581535e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  50
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.816742446360877e-08
+Accuracy of the network on the val images: 100.0000 %
+Training finished.
+testing loss:  0.07348176288604737
+Accuracy of the network on the testset images: 0.0000 %
+Testing with testset finished
+Round  :   7
+Net(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv4): Conv2d(64, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (fc1): Linear(in_features=64, out_features=2, bias=True)
+  (fc2): Linear(in_features=2304, out_features=64, bias=True)
+)
+Model size: 832.133KB
+Training is starting...
+Epoch:   1
+Loss: 0.6299 Acc: 0.7725
+val loss:  0.00010200370848178864
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   2
+Loss: 0.0038 Acc: 1.0000
+val loss:  3.3509698114357888e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   3
+Loss: 0.0004 Acc: 1.0000
+val loss:  1.4549888728652148e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   4
+Loss: 0.0002 Acc: 1.0000
+val loss:  8.580947032896802e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   5
+Loss: 0.0001 Acc: 1.0000
+val loss:  5.773723460151814e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   6
+Loss: 0.0001 Acc: 1.0000
+val loss:  4.2037184903165323e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   7
+Loss: 0.0001 Acc: 1.0000
+val loss:  3.239488432882354e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   8
+Loss: 0.0001 Acc: 1.0000
+val loss:  2.6093293490703215e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   9
+Loss: 0.0000 Acc: 1.0000
+val loss:  2.1761477910331451e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  10
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.8644758165464738e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  11
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.6312888510583434e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  12
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.4511318840959576e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  13
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.3082081386528443e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  14
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.1922862358915154e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  15
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.0965906312776496e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  16
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.016240703393123e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  17
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.480602966505102e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  18
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.895165410649497e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  19
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.385653291043126e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  20
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.940208979562157e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  21
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.5483421824174e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  22
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.20004218237591e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  23
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.889705400681123e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  24
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.609704632865033e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  25
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.358370774250943e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  26
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.130399651738116e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  27
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.922692071180791e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  28
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.7339369959663597e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  29
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.5605588386242745e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  30
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.4009480663808066e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  31
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.254031839285744e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  32
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.119214893056778e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  33
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.993039237888297e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  34
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.8760422487248434e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  35
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.767866266774945e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  36
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.666663244279334e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  37
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.571837689582026e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  38
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.484402643356589e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  39
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.401556543598417e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  40
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.322882887208834e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  41
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.250169013175764e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  42
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.180614087090362e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  43
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.1164233607560165e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  44
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.055271938341321e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  45
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.996564510089229e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  46
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.942088596886606e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  47
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.892142331096693e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  48
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.841540319626802e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  49
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.7950509977235926e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  50
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.751541817109683e-08
+Accuracy of the network on the val images: 100.0000 %
+Training finished.
+testing loss:  0.06964850997924804
+Accuracy of the network on the testset images: 0.0000 %
+Testing with testset finished
+Round  :   8
+Net(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv4): Conv2d(64, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (fc1): Linear(in_features=64, out_features=2, bias=True)
+  (fc2): Linear(in_features=2304, out_features=64, bias=True)
+)
+Model size: 832.133KB
+Training is starting...
+Epoch:   1
+Loss: 0.6920 Acc: 0.5945
+val loss:  0.003447177290916443
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   2
+Loss: 0.5700 Acc: 1.0000
+val loss:  3.4051196649670604e-05
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   3
+Loss: 0.0021 Acc: 1.0000
+val loss:  3.2380230259150266e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   4
+Loss: 0.0004 Acc: 1.0000
+val loss:  1.4722265623277053e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   5
+Loss: 0.0002 Acc: 1.0000
+val loss:  8.848023280734196e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   6
+Loss: 0.0001 Acc: 1.0000
+val loss:  6.013740639900788e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   7
+Loss: 0.0001 Acc: 1.0000
+val loss:  4.3999370973324404e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   8
+Loss: 0.0001 Acc: 1.0000
+val loss:  3.394531668163836e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   9
+Loss: 0.0001 Acc: 1.0000
+val loss:  2.73247278528288e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  10
+Loss: 0.0000 Acc: 1.0000
+val loss:  2.2758575869374908e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  11
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.9475057524687145e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  12
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.7021179519360885e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  13
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.5129472558328416e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  14
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.3630172179546208e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  15
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.2414886623446364e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  16
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.1411815648898483e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  17
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.0571554685157025e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  18
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.858409339358332e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  19
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.245860474038636e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  20
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.714243995200377e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  21
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.25032811917481e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  22
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.841122260288103e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  23
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.477150393242483e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  24
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.15281112206867e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  25
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.862919235572917e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  26
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.598892650799826e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  27
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.362162093864754e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  28
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.145218412711984e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  29
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.9482398683030624e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  30
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.767651509813732e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  31
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.601306793323602e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  32
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.448312458611326e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  33
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.3073576054885055e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  34
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.176891772862291e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  35
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.0552466746012216e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  36
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.941588395013241e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  37
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.8363333007728214e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  38
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.737097788165556e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  39
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.6455507799691986e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  40
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.558592854664312e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  41
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.4767607505491467e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  42
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.4004116716678255e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  43
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.32889023613825e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  44
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.261481262801681e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  45
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.198423357593128e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  46
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.137570294915349e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  47
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.080353255631053e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  48
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.0259967590827726e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  49
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.9747394566802544e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  50
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.926581621271907e-08
+Accuracy of the network on the val images: 100.0000 %
+Training finished.
+testing loss:  0.06898253345489502
+Accuracy of the network on the testset images: 0.0000 %
+Testing with testset finished
+Round  :   9
+Net(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv4): Conv2d(64, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (fc1): Linear(in_features=64, out_features=2, bias=True)
+  (fc2): Linear(in_features=2304, out_features=64, bias=True)
+)
+Model size: 832.133KB
+Training is starting...
+Epoch:   1
+Loss: 0.6885 Acc: 0.7620
+val loss:  0.003318664073944092
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   2
+Loss: 0.2075 Acc: 1.0000
+val loss:  6.013410747982562e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   3
+Loss: 0.0007 Acc: 1.0000
+val loss:  1.9737022230401637e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   4
+Loss: 0.0003 Acc: 1.0000
+val loss:  1.073016188456677e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   5
+Loss: 0.0002 Acc: 1.0000
+val loss:  6.948301524971612e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   6
+Loss: 0.0001 Acc: 1.0000
+val loss:  4.941865190630779e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   7
+Loss: 0.0001 Acc: 1.0000
+val loss:  3.7415452607092446e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   8
+Loss: 0.0001 Acc: 1.0000
+val loss:  2.9694021577597593e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   9
+Loss: 0.0001 Acc: 1.0000
+val loss:  2.445692225592211e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  10
+Loss: 0.0000 Acc: 1.0000
+val loss:  2.0744596986332908e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  11
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.8004200319410303e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  12
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.5910706315480638e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  13
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.426611197530292e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  14
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.2943673755216878e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  15
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.1859250662382692e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  16
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.0955219295283314e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  17
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.0189804652327439e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  18
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.536669222143246e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  19
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.971318129624706e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  20
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.478614836349152e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  21
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.045985578064574e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  22
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.661987910978496e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  23
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.319708220165922e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  24
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.01461731296149e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  25
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.738312822562875e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  26
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.490138002845924e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  27
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.263121667871019e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  28
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.057262362446636e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  29
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.868805692443857e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  30
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.6962625421874694e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  31
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.537486686080228e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  32
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.3898558689979834e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  33
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.253787321635173e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  34
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.1282086587889355e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  35
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.010913810110651e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  36
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.901546253677225e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  37
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.800403212357196e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  38
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.7048627493495586e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  39
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.615461011781008e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  40
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.531303829935496e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  41
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.452868870430393e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  42
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.379082429295522e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  43
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.309765790821984e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  44
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.243965850037057e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  45
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.182099564786768e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  46
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.122975224163383e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  47
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.067128656970453e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  48
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.015930744571961e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  49
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.9661038954363906e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  50
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.919376376870787e-08
+Accuracy of the network on the val images: 100.0000 %
+Training finished.
+testing loss:  0.07397671794891357
+Accuracy of the network on the testset images: 0.0000 %
+Testing with testset finished
+Round  :  10
+Net(
+  (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (conv4): Conv2d(64, 64, kernel_size=(3, 3), stride=(2, 2), padding=(2, 2), bias=False, padding_mode=reflect)
+  (fc1): Linear(in_features=64, out_features=2, bias=True)
+  (fc2): Linear(in_features=2304, out_features=64, bias=True)
+)
+Model size: 832.133KB
+Training is starting...
+Epoch:   1
+Loss: 0.6828 Acc: 0.6800
+val loss:  0.002798987627029419
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   2
+Loss: 0.0895 Acc: 1.0000
+val loss:  4.414767783600837e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   3
+Loss: 0.0005 Acc: 1.0000
+val loss:  1.6864834469743072e-06
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   4
+Loss: 0.0002 Acc: 1.0000
+val loss:  9.538196172798053e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   5
+Loss: 0.0002 Acc: 1.0000
+val loss:  6.287164433160797e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   6
+Loss: 0.0001 Acc: 1.0000
+val loss:  4.5222663902677593e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   7
+Loss: 0.0001 Acc: 1.0000
+val loss:  3.455296973697841e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   8
+Loss: 0.0001 Acc: 1.0000
+val loss:  2.7636772210826164e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:   9
+Loss: 0.0000 Acc: 1.0000
+val loss:  2.291244818479754e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  10
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.9536200306902173e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  11
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.7027530520863367e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  12
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.509942940174369e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  13
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.3578271864389536e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  14
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.2347563097137026e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  15
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.133585592469899e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  16
+Loss: 0.0000 Acc: 1.0000
+val loss:  1.0489343003428076e-07
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  17
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.770837186806602e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  18
+Loss: 0.0000 Acc: 1.0000
+val loss:  9.155789120995905e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  19
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.622088353149593e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  20
+Loss: 0.0000 Acc: 1.0000
+val loss:  8.156684270943515e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  21
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.747360723442398e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  22
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.38243625164614e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  23
+Loss: 0.0000 Acc: 1.0000
+val loss:  7.059290055622114e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  24
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.76802774250973e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  25
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.506088266178267e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  26
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.269358436838956e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  27
+Loss: 0.0000 Acc: 1.0000
+val loss:  6.053904871805572e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  28
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.8571055888023694e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  29
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.678007619280834e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  30
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.51267680748424e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  31
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.3595036661135966e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  32
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.219144622969907e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  33
+Loss: 0.0000 Acc: 1.0000
+val loss:  5.0895732329081513e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  34
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.9685246267472395e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  35
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.855342831433518e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  36
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.750922016683035e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  37
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.6527003178198356e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  38
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.560974275591434e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  39
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.475864352571079e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  40
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.395879568619421e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  41
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.3201268454140517e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  42
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.248962932251743e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  43
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.1809580125118374e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  44
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.1176019749400436e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  45
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.0587161947769345e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  46
+Loss: 0.0000 Acc: 1.0000
+val loss:  4.0013796933635605e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  47
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.947500090362155e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  48
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.897375199812814e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  49
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.849276845357963e-08
+Accuracy of the network on the val images: 100.0000 %
+Epoch:  50
+Loss: 0.0000 Acc: 1.0000
+val loss:  3.802966512012063e-08
+Accuracy of the network on the val images: 100.0000 %
+Training finished.
+testing loss:  0.07507065773010253
+Accuracy of the network on the testset images: 0.0000 %
+Testing with testset finished
+*******************************************
+ Type of convolution :  reflect
+ Type of network :  Net2
+*******************************************
+Results for validation dataset {0: 100.0, 1: 100.0, 2: 100.0, 3: 100.0, 4: 100.0, 5: 100.0, 6: 100.0, 7: 100.0, 8: 100.0, 9: 100.0}
+mean: 100.0000 std: 0.0000 for validation
+Results for test dataset {0: 0.0, 1: 0.0, 2: 0.0, 3: 0.0, 4: 0.0, 5: 0.0, 6: 0.0, 7: 0.0, 8: 0.0, 9: 0.0}
+mean: 0.0000 std: 0.0000 for test
